@@ -8,8 +8,8 @@
   --orange-light: #f2d9c8;
   --turquoise: #8bb9b1;
   --turquoise-dark: #3d7771;
-  --sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --serif: Georgia, "Times New Roman", serif;
+  --sans: "Helvetica Neue", Helvetica, sans-serif;
+  --serif: Georgia, serif;
 }
 
 * { box-sizing: border-box; }
@@ -107,7 +107,7 @@ h2 {
 .case-meta strong,
 .block-date {
   color: var(--turquoise-dark);
-  font-family: "Courier New", Courier, monospace;
+  font-family: var(--sans);
   font-size: .68rem;
   font-weight: 700;
   letter-spacing: .1em;
@@ -128,7 +128,7 @@ h2 {
 }
 .hero-reference-kicker {
   color: var(--muted);
-  font-family: "Courier New", Courier, monospace;
+  font-family: var(--sans);
   font-size: .68rem;
   font-weight: 700;
   letter-spacing: .1em;
@@ -252,7 +252,7 @@ h2 {
   background: var(--paper);
   border: 1px solid var(--ink);
   border-radius: 999px;
-  font-family: "Courier New", Courier, monospace;
+  font-family: var(--sans);
   font-size: .64rem;
   font-weight: 700;
   padding: 8px 10px;
@@ -435,7 +435,7 @@ h2 {
   border-radius: 8px;
   color: var(--ink) !important;
   padding: 7px 10px;
-  font-family: "Courier New", Courier, monospace;
+  font-family: var(--sans);
   font-size: .68rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -447,7 +447,7 @@ h2 {
   border-radius: 12px;
   padding: 16px;
 }
-.skill-groups h3 { font-size: .78rem; font-family: "Courier New", Courier, monospace; text-transform: uppercase; }
+.skill-groups h3 { font-size: .78rem; font-family: var(--sans); text-transform: uppercase; }
 .skill-groups p { font-size: .84rem; margin: 0; }
 .contact-panel {
   background: var(--orange-light);
@@ -482,6 +482,38 @@ h2 {
   border: 1px solid var(--ink);
   border-radius: 10px;
   object-fit: cover;
+}
+.project-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+.project-gallery-item {
+  margin: 0;
+  overflow: hidden;
+  background: var(--paper);
+  border: 2px solid var(--ink);
+  border-radius: 16px;
+  box-shadow: 5px 5px 0 var(--turquoise-dark);
+}
+.project-gallery-item img {
+  width: 100%;
+  height: 360px;
+  border-bottom: 1px solid var(--ink);
+  object-fit: cover;
+}
+.project-gallery-item video {
+  width: 100%;
+  height: 360px;
+  display: block;
+  border-bottom: 1px solid var(--ink);
+  background: var(--ink);
+  object-fit: contain;
+}
+.project-gallery-item figcaption {
+  color: var(--muted);
+  font-size: .88rem;
+  padding: 14px 16px;
 }
 .project-case-content {
   display: grid;
@@ -566,6 +598,7 @@ h2 {
   .copyright { text-align: left; }
   .project-case-content { display: block; }
   .project-case-media { height: 300px; }
+  .project-gallery { grid-template-columns: 1fr; }
   .case-aside { margin-bottom: 24px; }
   .case-meta { display: grid; grid-template-columns: 1fr 1fr; }
   .case-header,
@@ -659,7 +692,7 @@ h2 {
 .skill-groups h3,
 .award-tag {
   color: var(--turquoise-dark);
-  font-family: "Courier New", Courier, monospace;
+  font-family: var(--sans);
   letter-spacing: .1em;
 }
 

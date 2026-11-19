@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://jobottherobot.github.io/</loc></url>
+  <url><loc>https://jobottherobot.github.io/projects.html</loc></url>
+  <url><loc>https://jobottherobot.github.io/about.html</loc></url>
+  <url><loc>https://jobottherobot.github.io/resume.html</loc></url>
+  <url><loc>https://jobottherobot.github.io/project.html?project=bldc-robot-joint</loc></url>
+  <url><loc>https://jobottherobot.github.io/project.html?project=ece-306-robot-car</loc></url>
+  <url><loc>https://jobottherobot.github.io/project.html?project=msp430-board</loc></url>
+  <url><loc>https://jobottherobot.github.io/project.html?project=servo-robotic-arm</loc></url>
+  <url><loc>https://jobottherobot.github.io/project.html?project=sidekick-automation</loc></url>
+  <url><loc>https://jobottherobot.github.io/project.html?project=stm32-bare-metal</loc></url>
+</urlset>

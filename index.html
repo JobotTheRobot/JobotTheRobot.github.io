@@ -4,8 +4,17 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Engineering portfolio of Joseph B. Evans: robotics, embedded systems, electronics, and software.">
+  <link rel="canonical" href="https://jobottherobot.github.io/">
+  <meta name="robots" content="index, follow">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Joseph B. Evans | Engineering portfolio">
+  <meta property="og:description" content="Robotics, embedded systems, electronics, and software portfolio by Joseph B. Evans.">
+  <meta property="og:url" content="https://jobottherobot.github.io/">
+  <meta property="og:image" content="https://jobottherobot.github.io/pictures/home/profile.jpeg">
+  <meta name="twitter:card" content="summary_large_image">
   <title>Joseph B. Evans | Engineering portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Joseph B. Evans","url":"https://jobottherobot.github.io/","image":"https://jobottherobot.github.io/pictures/home/profile.jpeg","jobTitle":"Engineering Student","knowsAbout":["Robotics","Embedded Systems","Electrical Engineering","Computer Engineering"]}</script>
 </head>
 <body class="home-page">
   <header class="site-header">
@@ -48,34 +57,8 @@
         </div>
         <a class="button button-dark view-all-button" href="projects.html">View all projects <span>→</span></a>
       </div>
-      <div class="project-grid">
-        <a class="project-card card-large" href="projects/bldc-robot-joint.html">
-          <div class="project-visual visual-joint">
-            <img class="project-cover-image" src="pictures/bldc-robot-joint/Joint_Cover" alt="Custom BLDC robot joint project cover">
-          </div>
-          <div class="card-meta"><span>Embedded / Motion</span><span>May 2026-present</span></div>
-          <h3>Custom BLDC Robot Joint <span>↗</span></h3>
-          <p>[Project description]</p>
-        </a>
-        <a class="project-card" href="projects/ece-306-robot-car.html">
-          <div class="project-visual visual-car">
-            <span class="visual-note">MEDIA PLACEHOLDER</span>
-            <div class="car-graphic"><i></i></div>
-          </div>
-          <div class="card-meta"><span>Robotics / Embedded</span><span>Completed</span></div>
-          <h3>Autonomous / IoT Robot Car <span>↗</span></h3>
-          <p>[Project description]</p>
-        </a>
-        <a class="project-card" href="projects/msp430-board.html">
-          <div class="project-visual visual-board">
-            <span class="visual-note">MEDIA PLACEHOLDER</span>
-            <div class="board-graphic"><i></i><i></i><i></i><b></b></div>
-          </div>
-          <div class="card-meta"><span>Electronics / PCB</span><span>August 2026-present</span></div>
-          <h3>MSP430 Development Board <span>↗</span></h3>
-          <p>[Project description]</p>
-        </a>
-      </div>
+      <div id="featured-project-list" class="project-grid" aria-live="polite"></div>
+      <noscript><p>JavaScript is required to display featured projects.</p></noscript>
     </section>
   </main>
 
@@ -86,5 +69,6 @@
       <p class="copyright">© 2026 Joseph B. Evans</p>
     </div>
   </footer>
+  <script src="projects.js" defer></script>
 </body>
 </html>

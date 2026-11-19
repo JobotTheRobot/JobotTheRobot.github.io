@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jobottherobot.github.io/sitemap.xml
