@@ -4,10 +4,10 @@
   <url><loc>https://jobottherobot.github.io/projects.html</loc></url>
   <url><loc>https://jobottherobot.github.io/about.html</loc></url>
   <url><loc>https://jobottherobot.github.io/resume.html</loc></url>
-  <url><loc>https://jobottherobot.github.io/project.html?project=bldc-robot-joint</loc></url>
-  <url><loc>https://jobottherobot.github.io/project.html?project=ece-306-robot-car</loc></url>
-  <url><loc>https://jobottherobot.github.io/project.html?project=msp430-board</loc></url>
-  <url><loc>https://jobottherobot.github.io/project.html?project=servo-robotic-arm</loc></url>
-  <url><loc>https://jobottherobot.github.io/project.html?project=sidekick-automation</loc></url>
-  <url><loc>https://jobottherobot.github.io/project.html?project=stm32-bare-metal</loc></url>
+  <url><loc>https://jobottherobot.github.io/projects/bldc-robot-joint.html</loc></url>
+  <url><loc>https://jobottherobot.github.io/projects/ece-306-robot-car.html</loc></url>
+  <url><loc>https://jobottherobot.github.io/projects/msp430-board.html</loc></url>
+  <url><loc>https://jobottherobot.github.io/projects/servo-robotic-arm.html</loc></url>
+  <url><loc>https://jobottherobot.github.io/projects/sidekick-automation.html</loc></url>
+  <url><loc>https://jobottherobot.github.io/projects/stm32-bare-metal.html</loc></url>
 </urlset>

@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A BLDC robot joint project exploring field-oriented motor control, custom electronics, and cycloidal gearing.">
+  <link rel="canonical" href="https://jobottherobot.github.io/projects/bldc-robot-joint.html">
+  <meta name="robots" content="index, follow">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Custom BLDC Robot Joint | Joseph B. Evans">
+  <meta property="og:description" content="Building a robot joint across motor control, electronics, and mechanical design.">
+  <meta property="og:url" content="https://jobottherobot.github.io/projects/bldc-robot-joint.html">
+  <meta property="og:image" content="https://jobottherobot.github.io/pictures/bldc-robot-joint/Joint_Cover">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>Custom BLDC Robot Joint | Joseph B. Evans</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header class="site-header"><div class="container nav-wrap"><a class="wordmark" href="../index.html">JBE<span>.</span></a><nav class="site-nav"><a href="../index.html">Home</a><a class="active" href="../projects.html">Projects</a><a href="../about.html">About</a><a href="../resume.html">Resume</a><a class="nav-cta" href="../about.html#contact">Let’s connect <span>↗</span></a></nav></div></header>
+  <main class="project-page-main container">
+    <a class="text-link" href="../projects.html">← Back to projects</a>
+    <section class="case-header project-case-header"><p class="page-label">Embedded / Motion</p><h1>Custom BLDC Robot Joint</h1><p class="lede">I’m building a BLDC robot joint to learn how motor control, electronics, and mechanical design fit together.</p><div class="case-meta"><div><strong>Status</strong><span>In progress</span></div><div><strong>Role</strong><span>Designer / Developer</span></div><div><strong>Timeline</strong><span>May 2026-present</span></div><div><strong>Tools</strong><span>STM32 · KiCad · Embedded C · FOC · Onshape</span></div></div></section>
+    <section class="project-case-media"><img class="project-cover-image" src="../pictures/bldc-robot-joint/Joint_Cover" alt="Custom BLDC robot joint"></section>
+    <section class="project-case-body"><section><h2>Technical details</h2><p>I’m using an STM32-based controller with field-oriented control. A working position demo follows a potentiometer command and returns to target after hand movement. I started with a hand-built three-phase driver and have begun designing a custom controller PCB in KiCad. Mechanically, I’ve explored several printed gear reductions and am developing a cycloidal drive in Onshape.</p></section><section><h2>Design decisions</h2><p>I’m using an off-the-shelf controller for current FOC experiments, so control and mechanical development can continue while the custom board is in progress. I’m iterating through printed reducer designs before committing to a final joint.</p></section><section><h2>Challenges &amp; results</h2><p>FOC and closed-loop position control are working. The remaining work is completing the reducer and controller PCB, then integrating and testing the full joint.</p></section></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-grid"><div><a class="wordmark" href="../index.html">JBE<span>.</span></a><p>Engineering across hardware and software.</p></div><div class="footer-links"><a href="../projects.html">All projects</a><a href="mailto:josephbryantevans@gmail.com">Email</a></div><p class="copyright">© 2026 Joseph B. Evans</p></div></footer>
+</body>
+</html>
