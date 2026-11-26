@@ -168,12 +168,17 @@ h2 {
   padding: 10px;
 }
 .hero-profile-photo img {
+  display: block;
   width: 100%;
-  height: 100%;
+  height: auto;
   border: 1px solid var(--ink);
   border-radius: 10px;
-  object-fit: cover;
-  object-position: center;
+  object-fit: contain;
+}
+.hero-reference-media.hero-profile-photo {
+  width: min(330px, 100%);
+  max-width: 330px;
+  height: auto;
 }
 .hero-reference-image {
   width: 100%;
@@ -356,7 +361,6 @@ h2 {
   letter-spacing: -.04em;
   margin: 10px 0 6px;
 }
-.project-card h3 span { color: var(--orange); float: right; }
 .project-card p { color: var(--muted); font-size: .88rem; margin-bottom: 0; }
 
 .resume-strip {
@@ -440,6 +444,20 @@ h2 {
   gap: 28px;
 }
 .project-card-image.image-right { flex-direction: row-reverse; }
+.project-card-image .project-visual.project-cover-visual {
+  width: min(420px, 46%);
+  flex: 0 0 min(420px, 46%);
+  aspect-ratio: 4 / 3;
+  height: auto;
+  max-height: none;
+}
+.project-card-image .project-cover-visual .project-cover-image {
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  max-height: none;
+  object-fit: cover;
+}
 
 .about-layout { display: grid; gap: 24px; padding: 48px 0 110px; }
 .about-block {
@@ -684,6 +702,11 @@ h2 {
   .project-list-large .project-card-image { display: block; }
   .project-list-large .project-visual:not(.project-cover-visual) { height: 300px; }
   .project-visual.project-cover-visual { height: auto; max-width: 100%; margin: 0 auto 16px; }
+  .project-card-image .project-visual.project-cover-visual {
+    width: min(100%, 400px);
+    max-width: 100%;
+    margin: 0 auto 16px;
+  }
   .page-intro { margin-top: 28px; padding: 28px; }
   .page-intro h1 { font-size: clamp(2.7rem, 12vw, 4.2rem); }
   .about-block { display: block; padding: 24px; }
